@@ -139,7 +139,7 @@ define('portal/tests/components/element-parent/component.jshint', ['exports'], f
   QUnit.module('JSHint | components/element-parent/component.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/element-parent/component.js should pass jshint.');
+    assert.ok(false, 'components/element-parent/component.js should pass jshint.\ncomponents/element-parent/component.js: line 134, col 25, \'selection\' is defined but never used.\n\n1 error');
   });
 });
 define('portal/tests/components/element-phone/component.jshint', ['exports'], function (exports) {
@@ -337,7 +337,7 @@ define('portal/tests/form/controller.jshint', ['exports'], function (exports) {
   QUnit.module('JSHint | form/controller.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'form/controller.js should pass jshint.\nform/controller.js: line 13, col 15, \'form\' is defined but never used.\nform/controller.js: line 14, col 15, \'lastSection\' is defined but never used.\nform/controller.js: line 24, col 15, \'form\' is defined but never used.\nform/controller.js: line 35, col 17, \'newSection\' is defined but never used.\nform/controller.js: line 47, col 76, Expected \'===\' and instead saw \'==\'.\nform/controller.js: line 58, col 76, Expected \'===\' and instead saw \'==\'.\nform/controller.js: line 67, col 40, Expected \'===\' and instead saw \'==\'.\nform/controller.js: line 140, col 13, \'$\' is not defined.\n\n8 errors');
+    assert.ok(false, 'form/controller.js should pass jshint.\nform/controller.js: line 13, col 15, \'form\' is defined but never used.\nform/controller.js: line 14, col 15, \'lastSection\' is defined but never used.\nform/controller.js: line 24, col 15, \'form\' is defined but never used.\nform/controller.js: line 35, col 17, \'newSection\' is defined but never used.\nform/controller.js: line 47, col 76, Expected \'===\' and instead saw \'==\'.\nform/controller.js: line 58, col 76, Expected \'===\' and instead saw \'==\'.\nform/controller.js: line 67, col 40, Expected \'===\' and instead saw \'==\'.\nform/controller.js: line 147, col 13, \'$\' is not defined.\n\n8 errors');
   });
 });
 define('portal/tests/form/model.jshint', ['exports'], function (exports) {
